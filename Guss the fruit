@@ -1,0 +1,14 @@
+import numpy as np
+import random
+import pandas as pd
+from sklearn.preprocessing import LabelEncoder
+from sklearn.tree import DecisionTreeClassifier
+
+#สร้าง Dataset
+type_fruit = ['apple', 'orange'] 
+weight = np.random.uniform(0,50,size=100) #กรัม
+color = ['red','orange']
+diameter = np.random.uniform(0,50, size=100) #ซม
+taste = ['sweet','sour']
+
+
